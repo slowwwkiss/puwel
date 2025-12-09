@@ -1,0 +1,484 @@
+@font-face {
+  font-family: Maladroit;
+  src: url('../fonts/Maladroit.ttf') format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+.section_hero {
+  background-color: #ffe680;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  position: relative;
+}
+
+.floor {
+  background-color: #e6cc62;
+  width: 100%;
+  height: 20%;
+  position: absolute;
+  inset: auto 0% 0%;
+}
+
+.hero_bear {
+  height: 100%;
+  position: relative;
+  inset: auto auto 0%;
+}
+
+.logo {
+  height: 22%;
+  position: absolute;
+  inset: auto auto 48%;
+}
+
+.block_bear_hero {
+  height: 55%;
+  position: absolute;
+  inset: auto auto 0%;
+}
+
+.quote {
+  height: 22%;
+  position: absolute;
+  inset: auto -30% 41% auto;
+}
+
+.hero_socials {
+  z-index: 20;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 25px;
+  display: flex;
+  position: absolute;
+  inset: 0% 0% auto auto;
+}
+
+.x {
+  background-color: #000;
+  background-image: url('../images/x.svg');
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: auto 90%;
+  border-radius: 100%;
+  width: 50px;
+  height: 50px;
+  padding: 0;
+}
+
+.dex {
+  background-color: #000;
+  background-image: url('../images/dex.png');
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: auto 68%;
+  border-radius: 100%;
+  width: 50px;
+  height: 50px;
+  margin-right: 7.5px;
+  padding: 0;
+}
+
+.ca {
+  color: #000;
+  background-color: #0000;
+  border: 1px #000;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  margin: 25px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  font-family: Maladroit, Impact, sans-serif;
+  font-size: 22px;
+  line-height: 22px;
+  display: flex;
+  position: absolute;
+  inset: auto auto 68%;
+  transform: skew(0deg, -4deg);
+}
+
+.button_buy {
+  background-color: #000;
+  border: 1px #000;
+  border-radius: 9px;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  margin: 25px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  font-family: Maladroit, Impact, sans-serif;
+  font-size: 18px;
+  line-height: 18px;
+  display: flex;
+  position: absolute;
+  inset: 0% auto auto 0%;
+}
+
+.separator {
+  background-color: #956736;
+  border-top: 5px solid #000;
+  border-bottom: 5px solid #000;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 150px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+}
+
+.separator_in {
+  background-color: #63411e;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.h1 {
+  color: #fadfc0;
+  font-family: Maladroit, Impact, sans-serif;
+  font-size: 20px;
+}
+
+.section_about {
+  background-color: #ffe680;
+  flex-flow: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  padding-top: 100px;
+  display: flex;
+}
+
+.bear_about {
+  height: 500px;
+  margin-top: -121px;
+  position: relative;
+}
+
+.block_about {
+  background-color: #956736;
+  border: 12px solid #000;
+  border-width: 5px 12px 12px 5px;
+  width: 850px;
+  height: auto;
+  padding: 15px;
+  transform: skew(0deg, -3deg);
+}
+
+.block_about_in {
+  background-color: #62421e;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding: 100px 50px;
+  display: flex;
+}
+
+.para {
+  color: #fadfc0;
+  text-align: center;
+  margin-bottom: 0;
+  font-family: Maladroit, Impact, sans-serif;
+  font-size: 25px;
+  line-height: 38px;
+}
+
+.title {
+  color: #000;
+  text-align: center;
+  margin-bottom: 100px;
+  font-family: Maladroit, Impact, sans-serif;
+  font-size: 110px;
+  line-height: 110px;
+  transform: skew(0deg, -4deg);
+}
+
+.section_gallery {
+  background-color: #ffe680;
+  flex-flow: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  padding: 100px 25px;
+  display: flex;
+}
+
+.body {
+  background-color: #ffe680;
+}
+
+.block_memes {
+  grid-column-gap: 25px;
+  grid-row-gap: 25px;
+  grid-template-rows: auto auto auto auto;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-auto-columns: 1fr;
+  width: 100%;
+  max-width: 1550px;
+  display: grid;
+}
+
+.meme {
+  border: 8px solid #000;
+  border-width: 3px 8px 8px 3px;
+  width: auto;
+  height: auto;
+}
+
+.links {
+  z-index: 0;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  display: flex;
+  position: relative;
+  inset: 0% 0% auto auto;
+}
+
+.screener {
+  background-color: #0c1b53;
+  background-image: url('../images/dex.png');
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: auto 70%;
+  border: 2px #1b3fc0;
+  border-radius: 100%;
+  width: 50px;
+  height: 50px;
+  margin-left: 35px;
+}
+
+.screener:hover {
+  background-color: #2e6dc5;
+  border-color: #fff;
+}
+
+.d {
+  background-color: #0c1b53;
+  background-image: url('../images/x.svg');
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: 89%;
+  border: 2px #f9e4a3;
+  border-radius: 100%;
+  width: 50px;
+  height: 50px;
+  margin-left: 7px;
+}
+
+.d:hover {
+  background-color: #2e6dc5;
+  border-color: #fff;
+}
+
+.tg {
+  background-color: #0c1b53;
+  background-image: url('../images/tg.svg');
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: 87%;
+  border: 2px #f9e4a3;
+  border-radius: 100%;
+  width: 50px;
+  height: 50px;
+  margin-left: 7px;
+}
+
+.tg:hover {
+  background-color: #2e6dc5;
+  border-color: #fff;
+}
+
+.ca_mobile {
+  color: #2c2c2c;
+  background-color: #0000;
+  border: 1px #000;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  margin: 25px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  font-family: Maladroit, Impact, sans-serif;
+  font-size: 22px;
+  line-height: 22px;
+  display: none;
+  position: absolute;
+  inset: auto auto 68%;
+  transform: skew(0deg, -4deg);
+}
+
+@media screen and (max-width: 991px) {
+  .logo {
+    height: 176px;
+    margin-bottom: 561px;
+    inset: auto auto 0%;
+  }
+
+  .block_bear_hero {
+    height: 550px;
+  }
+
+  .ca {
+    margin-bottom: 726px;
+    display: none;
+    inset: auto auto 0%;
+  }
+
+  .block_about {
+    width: 90%;
+  }
+
+  .block_memes {
+    grid-template-rows: auto auto auto auto auto auto;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .ca_mobile {
+    margin-bottom: 726px;
+    display: flex;
+    inset: auto auto 0%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .logo {
+    height: 105px;
+    margin-bottom: 345px;
+  }
+
+  .block_bear_hero {
+    height: 371px;
+  }
+
+  .h1 {
+    text-align: center;
+    font-size: 16px;
+    line-height: 25px;
+  }
+
+  .bear_about {
+    height: 400px;
+    margin-top: -50px;
+  }
+
+  .block_about_in {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .para {
+    font-size: 18px;
+    line-height: 29px;
+  }
+
+  .title {
+    font-size: 65px;
+    line-height: 65px;
+  }
+
+  .block_memes {
+    grid-template-rows: auto auto auto auto auto auto auto auto auto auto auto auto;
+    grid-template-columns: 1fr;
+  }
+
+  .ca_mobile {
+    margin-bottom: 450px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .floor {
+    height: 97px;
+  }
+
+  .logo {
+    height: 72px;
+    margin-bottom: 244px;
+  }
+
+  .block_bear_hero {
+    height: 265px;
+  }
+
+  .quote {
+    height: 19%;
+    right: -22%;
+  }
+
+  .button_buy {
+    font-size: 16px;
+    line-height: 16px;
+  }
+
+  .h1 {
+    font-size: 15px;
+  }
+
+  .section_about {
+    padding-top: 50px;
+  }
+
+  .bear_about {
+    height: 287px;
+  }
+
+  .block_about_in {
+    padding: 25px;
+  }
+
+  .para {
+    font-size: 16px;
+  }
+
+  .title {
+    margin-bottom: 50px;
+    font-size: 50px;
+    line-height: 50px;
+  }
+
+  .section_gallery {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .links {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 15px;
+    display: flex;
+    right: auto;
+  }
+
+  .screener {
+    margin-left: 0;
+  }
+
+  .ca_mobile {
+    margin-bottom: 308px;
+  }
+}
+
+
+@font-face {
+  font-family: 'Maladroit';
+  src: url('../fonts/Maladroit.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
